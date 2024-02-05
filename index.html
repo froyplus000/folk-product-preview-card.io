@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Pattarapol Tantechasa | Product preview card component</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section id="image_section" class="container">
+        <img
+          id="img_desktop"
+          src="./images/image-product-desktop.jpg"
+          alt="product image for desktop version"
+        />
+        <img
+          id="img_mobile"
+          src="./images/image-product-mobile.jpg"
+          alt="product image for mobile version"
+        />
+      </section>
+
+      <section id="info_section" class="container">
+        <p id="tag">PERFUME</p>
+        <h1 id="title">Gabrielle Essence Eau De Parfum</h1>
+        <p id="detail">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p id="price">
+          <span id="discounted">$149.99</span>
+          <span id="original">$169.99</span>
+        </p>
+        <button id="button">
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
